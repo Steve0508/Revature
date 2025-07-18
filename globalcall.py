@@ -1,7 +1,10 @@
-import globalnamespace
+# import globalnamespace
 
-globalnamespace.f()
+# globalnamespace.f()
 
 
 
-print("gloval var:",globalnamespace.a)
+# print("gloval var:",globalnamespace.a)
+
+
+

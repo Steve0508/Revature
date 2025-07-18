@@ -1,0 +1,26 @@
+class CustomError(Exception):
+    pass
+class ValidationError(Exception):
+    def __init__(self,message,code=None):
+        super().__init__(message)
+        self.code=code
+    
+
+def validate_age(age):
+    if age<0:
+        raise ValidationError("age cannote be negative",code="NEGATIVE_AGE")
+    if age>150:
+        raise ValidationError("Age seems unrealistic",code="UNREALISTIC_AGE")
+    
+
+try:
+        validate_age(-5)
+
+except ValidationError as e:
+        print(f"validastion failed:{e}")
+        print(f"Error code :{e.code}")
+
+
+    #collection get any input from the user like name
+    #search that name in the collection
+    #UserNotFound Exception

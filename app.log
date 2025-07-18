@@ -1,0 +1,10 @@
+root - DEBUG - Hello,Debug
+root - INFO - Hello, Infoo
+root - WARNING - Hello, Warning
+root - ERROR - hello error
+root - CRITICAL - hello, critical
+root - DEBUG - Hello,Debug
+root - INFO - Hello, Infoo
+root - WARNING - Hello, Warning
+root - ERROR - hello error
+root - CRITICAL - hello, critical
